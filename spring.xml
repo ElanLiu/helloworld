@@ -8,4 +8,12 @@
 		</property>
 
 	</bean>
+
+	<bean id="interfaceA" class="com.mycompany.spring.InterfaceAImpl">
+	</bean>
+
+	<bean id="interfaceB" class="com.mycompany.spring.InterfaceBImpl">
+	</bean>
+
+
 </beans>
