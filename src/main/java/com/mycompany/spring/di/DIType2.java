@@ -1,4 +1,4 @@
-package com.mycompany.spring;
+package com.mycompany.spring.di;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;

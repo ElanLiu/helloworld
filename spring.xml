@@ -9,10 +9,16 @@
 
 	</bean>
 
-	<bean id="interfaceA" class="com.mycompany.spring.InterfaceAImpl">
+	<bean id="interfaceA" class="com.mycompany.spring.di.InterfaceAImpl">
+	    <property name="name">
+	        <value>I'm A</value>
+	    </property>
 	</bean>
 
-	<bean id="interfaceB" class="com.mycompany.spring.InterfaceBImpl">
+	<bean id="interfaceB" class="com.mycompany.spring.di.InterfaceBImpl">
+	    <property name="name">
+	        <value>I'm B</value>
+	    </property>
 	</bean>
 
 

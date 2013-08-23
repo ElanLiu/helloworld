@@ -1,4 +1,4 @@
-package com.mycompany.spring;
+package com.mycompany.spring.di;
 
 public class DIType3 {
 	private InterfaceA interfaceA;
