@@ -10,7 +10,7 @@ public class DIType2 {
 	private InterfaceB interfaceB;
 	
 	public void doSomething(){
-		ApplicationContext ctx = new FileSystemXmlApplicationContext("spring.xml");
+		ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/META-INF/spring/spring.xml");
 		
 		interfaceA = (InterfaceA) ctx.getBean("interfaceA");
 		

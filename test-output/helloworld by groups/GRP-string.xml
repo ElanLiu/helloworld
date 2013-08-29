@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Elan-thinkpad" name="com.mycompany.testng.StringUtilsTest" tests="1" failures="0" timestamp="28 Aug 2013 06:47:53 GMT" time="0.023" errors="0">
+  <testcase name="isEmpty" time="0.014" classname="com.mycompany.testng.StringUtilsTest"/>
+</testsuite>

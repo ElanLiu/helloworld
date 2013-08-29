@@ -20,6 +20,10 @@
 			<value>I'm B</value>
 		</property>
 	</bean>
+	
+	<bean id="loginaction" class="com.mycompany.spring.applicationcontext.LoginAction" />
+	    
+	<bean id="listener" class="com.mycompany.spring.applicationcontext.ActionListener" />
 
 	
 

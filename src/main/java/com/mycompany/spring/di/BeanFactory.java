@@ -14,7 +14,7 @@ public class BeanFactory {
 	
 	public BeanFactory(){
 		try {
-			in = new FileInputStream("spring.xml");
+			in = new FileInputStream("src/main/resources/META-INF/spring/spring.xml");
 			
 			XmlBeanFactory factory = new XmlBeanFactory((Resource) in);
 			

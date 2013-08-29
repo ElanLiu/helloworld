@@ -53,6 +53,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.5</version>
+		</dependency>
+
+		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.14</version>
@@ -81,34 +87,50 @@
 			<artifactId>commons-httpclient</artifactId>
 			<version>3.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20090211</version>
 		</dependency>
 
-		 <!-- 引入Spring-AOP等相关Jar -->
-        <dependency> 
-            <groupId>org.springframework</groupId> 
-            <artifactId>spring-core</artifactId> 
-            <version>3.0.6.RELEASE</version> 
-        </dependency> 
-        <dependency> 
-            <groupId>org.springframework</groupId> 
-            <artifactId>spring-context</artifactId> 
-            <version>3.0.6.RELEASE</version> 
-        </dependency> 
-        <dependency> 
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId> 
-            <version>3.0.6.RELEASE</version> 
-        </dependency> 
-        <dependency> 
-            <groupId>org.springframework</groupId> 
-            <artifactId>spring-orm</artifactId> 
-            <version>3.0.6.RELEASE</version> 
-        </dependency> 
+		<!-- 引入Spring-AOP等相关Jar -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.0.6.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jumpmind.symmetric</groupId>
+			<artifactId>symmetric-csv</artifactId>
+			<version>3.5.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

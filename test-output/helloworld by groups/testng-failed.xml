@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [helloworld by groups]">
+  <parameter name="param1" value="Cedric"/>
+  <test name="GRP-para(failed)" preserve-order="false">
+    <parameter name="param1" value="Cedric"/>
+    <groups>
+      <run>
+        <include name="para"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mycompany.testng.StringUtilsTest">
+        <methods>
+          <include name="print" invocation-numbers="0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
