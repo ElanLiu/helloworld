@@ -46,4 +46,5 @@
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/3.0.6.RELEASE/spring-webmvc-3.0.6.RELEASE.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/3.0.6.RELEASE/spring-context-support-3.0.6.RELEASE.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/jumpmind/symmetric/symmetric-csv/3.5.4/symmetric-csv-3.5.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/20030211.134440/commons-beanutils-20030211.134440.jar"/>
 </classpath>

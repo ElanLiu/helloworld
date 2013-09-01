@@ -13,7 +13,7 @@ public class ExTest {
 		int k = 1;
 		
 		try{
-			kr ? System.out.print("mm") : System.out.print("ll");
+			k ? System.out.print("mm") : System.out.print("ll");
 		}catch(Exception e){
 			System.out.print("dddddd");
 		}finally{
