@@ -1,4 +1,4 @@
-package com.mycompany.Decorator;
+package designModel.decorator;
 
 public class BufferedInputStream extends FilterInputStream{
 
@@ -10,7 +10,7 @@ public class BufferedInputStream extends FilterInputStream{
 	public void say() {
 		super.say();
 		
-		System.out.print(" : BufferedInputStream");
+		System.out.println(" : BufferedInputStream");
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.mycompany.Decorator;
+package designModel.decorator;
 
 public class StringBufferInputStream implements InputStream{
 	@Override

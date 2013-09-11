@@ -1,10 +1,10 @@
-package com.mycompany.Decorator;
+package designModel.decorator;
 
 public class FileInputStream implements InputStream{
 
 	@Override
 	public void say() {
-		System.out.print("FileInputStream");
+		System.out.println("FileInputStream");
 		
 	}
 
