@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
 import java.lang.reflect.Method;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -22,34 +23,17 @@ public class TestDemo {
 	
 
 	public static void main(String args[]) throws Exception{
-		strList.add("ddd");
-		intList.add(new Integer(3));
 		
-		list = strList;
-		list = intList;
+		BigInteger in = new BigInteger("3605511998");
+		BigInteger in2 = new BigInteger("512");
+		BigInteger in3 = new BigInteger("64");
+		BigInteger mod = in.mod(in2);
+		BigInteger di = mod.divide(in3);
 		
-		System.out.println(TestDemo.class.getClass().getResource("qq.csv"));
-		
-		File file = new File("./src/main/resources/qq.csv");
-		
-		Reader reader = new FileReader(file);
-		
-		CsvReader csvReader = new CsvReader (reader);
-		
-		String[] str = null;
-		List<String[]> list = new ArrayList<String[]>();
-		
-		while(csvReader.readRecord()){
-			list.add(csvReader.getValues());
-		}
-		
-		for(String[] s : list){
-			for(String s2: s){
-				System.out.print(s2);
-				System.out.print(",");
-			}
-			
-		}
+		System.out.println(mod.toString());
+		System.out.println(di.toString());
+		//System.out.println(j);
+
 		
 	}
 	
